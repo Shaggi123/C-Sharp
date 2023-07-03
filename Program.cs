@@ -1,21 +1,32 @@
-using System.ComponentModel.DataAnnotations;
-
-namespace NFLStats.Models
+// Define the IQuittable interface
+public interface IQuittable
 {
-    public class Player
+    void Quit();
+}
+
+// Implement the Employee class and inherit the IQuittable interface
+public class Employee : IQuittable
+{
+    public string Name { get; set; }
+
+    // Implement the Quit() method from the IQuittable interface
+    public void Quit()
     {
-        public int PlayerId { get; set; }
+        Console.WriteLine("Employee quitting: " + Name);
+    }
+}
 
-        [Required]
-        public string Name { get; set; }
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Create an object of type IQuittable and assign it an instance of Employee
+        IQuittable quittableEmployee = new Employee { Name = "John Doe" };
 
-        [Required]
-        public string Position { get; set; }
+        // Call the Quit() method on the object of type IQuittable
+        quittableEmployee.Quit();
 
-        [Required]
-        public int Age { get; set; }
-
-        // Add more properties as needed
-
-        // Example of a calculated property based on other properties
-        public string FullName
+        // Wait for user input before closing the console window
+        Console.ReadLine();
+    }
+}
