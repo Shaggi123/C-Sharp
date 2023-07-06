@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8bUSk3YbwJT7iQ226iVl1TxlbrBd9o20Namjb3SsQzw6jh9rZ9CHsJK/luBIIBO/cMa8u6WN8YjjV4lbvUQRbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\17783\\Desktop\\Framework2\\InsureeController\\InsureeController\\InsureeController.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\17783\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\17783\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\17783\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\17783\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
